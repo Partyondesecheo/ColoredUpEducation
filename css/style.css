@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(
+    180deg,
+    #ea2809,
+    #E25822,
+    /*#f0910d,
+    #e8b926,
+    #e3de0f,*/
+    #92d91d,
+    #1bce08,
+    #08c875,
+    #169bc3,
+    #092ec5
+    /*#7215dd,
+    #8c36ee,
+    #f236da*/
+  );
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+html {
+    height: 100%;
+}
+.jumbotron{
+  opacity: .91;
+  background-color: white;
+}
+.red, .burgundy, .orange, .yellow, .green, .blue, .teal, .purple, .plum, .magenta, .pink, .brown, .gray, .black{
+  font-weight: bolder;
+}
+.red{
+  color: #cc0000;
+}
+.burgundy{
+  color: #aa1a3a;
+}
+.orange{
+  color: #FF8C00;
+}
+.yellow{
+  color: goldenrod;
+}
+.green{
+  color: forestgreen;
+}
+.blue{
+  color: blue;
+}
+.teal{
+  color: teal;
+}
+.purple{
+  color: purple;
+}
+.plum{
+color: #8E4585;
+}
+.magenta{
+  color: #FF00FF;
+}
+.pink{
+  color: deeppink;
+}
+.brown{
+  color: brown;
+}
+.gray{
+  color: gray;
+}
+.black{
+  color: black;
+}
+hr{
+  color: black;
+  background-color: black;
+  height: 5px;
+}
+.nice{
+  background-color:transparent;
+  color: white;
+  text-shadow: 0px 0px 20px;
+display: inline-block;
+font-size: 4.2rem;
+}
+.container{
+  max-width: 768px;
+  margin-top: 50px;
+}
+
+/* carousel
+==============================
+*/
+.carousel{
+bottom:0px;
+width: 100%;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+.carousel-indicators .active{
+background-color:#000;
+}
+
+.carousel-indicators{
+  top: 0px;
+}
+
+.carousel-indicators ol{
+color: #000;
+background-color:#000;
+}
+
+#myCarousel{
+  height: auto;
+  width: auto;
+  overflow: hidden;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.commentbox{
+  padding: 0px 10px;
+  background-color: RGBA(245,245,245, 0.5);
+  border: 1px dashed RGBA(190,190,190, 0.86);
+}
+.commentmessage{
+  margin-left: 20px;
+}
